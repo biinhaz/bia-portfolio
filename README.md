@@ -11,6 +11,7 @@ Este projeto é uma vitrine dos meus trabalhos, habilidades e experiência. Aqui
 - **React:** Uma biblioteca JavaScript para construir interfaces de usuário.
 - **Vite:** Um bundler de próxima geração para projetos JavaScript modernos.
 - **TailwindCSS:** Um framework CSS utilitário para desenvolvimento rápido e design responsivo.
+- **TypeScript:** Um superconjunto de JavaScript que adiciona digitação estática opcional e recursos avançados ao JavaScript.
 
 ## Como Executar
 
