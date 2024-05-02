@@ -1,57 +1,25 @@
-import { motion } from "framer-motion";
 import avatarImage from "../assets/avatar-image.png";
-import { TypeAnimation } from "react-type-animation";
-import { AppButton } from "./app-button";
 
 export function AboutMe() {
     return (
-        <section className="lg:py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-12">
-            <motion.div
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-            className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
-            >
-            <h1 className="mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-500">
-                Hi, I'm
-                </span>
-                <br></br>
-                <TypeAnimation
-                sequence={["Bia Miranda", 3000, "Web Developer", 1000]}
-                wrapper="span"
-                speed={50}
-                repeat={Infinity}
-                />
-            </h1>
-            <div>
-                <AppButton>Hire me</AppButton>
-                <a
-                href="/"
-                className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-purple-700 to-pink-500 hover:bg-slate-800 mt-3 lg:text-xl"
-                >
-                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                    Download CV
-                </span>
-                </a>
+        <section id="about">
+        <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+            <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+            <img src={avatarImage} alt="Avatar da Bia" width={400} height={400} />
             </div>
-            </motion.div>
-            <motion.div
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-            className="col-span-4 place-self-center mt-4 lg:mt-0">
-            <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[500px] lg:h-[500px] relative">
-                <img
-                src={avatarImage}
-                alt="Avatar da Bia"
-                className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                width={400}
-                height={400}
-                />
+            <div className="mt-4 md:mt-0 text-left flex flex-col h-ful">
+            <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+            <p className="text-base lg:text-lg">
+                Hi, I'm Ana Beatriz, a passionate software developer with a strong
+                command of JavaScript, TypeScript, Node.js, NestJS, React, HTML, CSS
+                and Flutter for mobile applications. I have an innate ability to
+                learn quickly and I love facing challenges that push me to surpass
+                my limits on a daily basis. With experience in team leadership, I
+                found constant motivation in the inspiration of others. Always
+                looking to improve, I am determined to stand out and leave a
+                positive mark in everything I do.
+            </p>
             </div>
-            </motion.div>
         </div>
         </section>
     );

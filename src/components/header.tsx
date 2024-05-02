@@ -2,6 +2,7 @@ import { AppButton } from "./app-button";
 import { NavLink } from "./nav-link";
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { MenuOverlay } from "./menu-overlay";
 
 const navLinks = [
     {
@@ -51,6 +52,7 @@ export function Header() {
                     <AppButton>Contact</AppButton>
                 </div>
             </div>
+            {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
         </nav>
     );
 }
