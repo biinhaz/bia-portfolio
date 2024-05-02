@@ -30,7 +30,7 @@ npm install
 npm run dev
 
 
-4. Abra seu navegador e acesse `http://localhost:3000` para ver o portfólio.
+4. Abra seu navegador e acesse `http://localhost:5173` para ver o portfólio.
 
 ## Contribuição
 
@@ -40,5 +40,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 
 - **Email:** dev.biamiranda@gmail.com
 - **LinkedIn:** [Ana Beatriz](https://www.linkedin.com/in/ana-beatriz-miranda-60aa21256/)
-- **Instagram:** (https://www.instagram.com/biazmiranda_/)
+- **Instagram:** [@biazmiranda_](https://www.instagram.com/biazmiranda_/)
 
