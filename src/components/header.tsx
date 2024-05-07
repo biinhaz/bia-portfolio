@@ -3,28 +3,32 @@ import { NavLink } from "./nav-link";
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { MenuOverlay } from "./menu-overlay";
-
-const navLinks = [
-    {
-        title: "About",
-        path: "#about",
-    },
-    {
-        title: "Projects",
-        path: "#projects",
-    },
-];
+import { useTranslation } from 'react-i18next';
+import LanguageSelector from "./lang-button";
 
 export function Header() {
     const [navbarOpen, setNavbarOpen] = useState(false);
+    const { t } = useTranslation();
 
+    const navLinks = [
+        {
+            title: t('app.about_me'),
+            path: "#about",
+        },
+        {
+            title: t('app.projects'),
+            path: "#projects",
+        },
+    ];
+    
     return (
-        <nav className="fixed mx-auto top-3 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
+        <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
             <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
                 <a href={"/"} className="text-2xl md:text-5xl text-white font-semibold">
                     LOGO
                 </a>
                 <div className="mobile-menu block md:hidden">
+                <LanguageSelector />
                     {!navbarOpen ? (
                         <button
                             onClick={() => setNavbarOpen(true)}
@@ -42,6 +46,7 @@ export function Header() {
                     )}
                 </div>
                 <div className="menu hidden md:flex md:w-auto items-center gap-5" id="navbar">
+                <LanguageSelector />
                     <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
                         {navLinks.map((link, index) => (
                             <li key={index}>
@@ -49,7 +54,7 @@ export function Header() {
                             </li>
                         ))}
                     </ul>
-                    <AppButton>Contact</AppButton>
+                    <AppButton>{t('app.contact')}</AppButton>
                 </div>
             </div>
             {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
