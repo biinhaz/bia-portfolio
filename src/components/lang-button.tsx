@@ -1,21 +1,25 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import Switch from '@mui/material/Switch';
 
 const LanguageSelector: React.FC = () => {
-    const { t, i18n } = useTranslation();
+    const { t, i18n } = useTranslation()
 
-    const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-        const selectedLanguage = e.target.value;
-        i18n.changeLanguage(selectedLanguage);
-        window.location.reload();
-    };
+    const handleLanguageChange = () => {
+        const newLanguage = i18n.language === 'pt-BR' ? 'en-US' : 'pt-BR'
+        i18n.changeLanguage(newLanguage)
+        window.location.reload()
+    }
 
     return (
-        <select className="bg-pink-500" onChange={handleLanguageChange} value={i18n.language}>
-            <option value="pt-BR">{t('app.portuguese')}</option>
-            <option value="en-US">{t('app.english')}</option>
-        </select>
-    );
-};
+        <Switch
+            checked={i18n.language === 'en-US'}
+            onChange={handleLanguageChange}
+            color="primary"
+            name="languageSwitch"
+            inputProps={{ 'aria-label': 'change language' }}
+        />
+    )
+}
 
-export default LanguageSelector;
+export default LanguageSelector
