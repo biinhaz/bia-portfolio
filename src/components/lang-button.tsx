@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import Switch from '@mui/material/Switch';
 
 const LanguageSelector: React.FC = () => {
-    const { t, i18n } = useTranslation()
+    const { i18n } = useTranslation()
 
     const handleLanguageChange = () => {
         const newLanguage = i18n.language === 'pt-BR' ? 'en-US' : 'pt-BR'

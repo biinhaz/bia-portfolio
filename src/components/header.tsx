@@ -28,7 +28,6 @@ export function Header() {
                     LOGO
                 </a>
                 <div className="mobile-menu block md:hidden">
-                <LanguageSelector />
                     {!navbarOpen ? (
                         <button
                             onClick={() => setNavbarOpen(true)}

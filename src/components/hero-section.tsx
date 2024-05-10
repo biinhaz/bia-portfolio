@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import fotoBia from "../assets/IMG_6124.jpg";
+import fotoBia from "../assets/bia-photo.jpg";
 import { TypeAnimation } from "react-type-animation";
 import { AppButton } from "./app-button";
 import { useTranslation } from 'react-i18next';
