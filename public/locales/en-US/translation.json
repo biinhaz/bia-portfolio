@@ -8,6 +8,14 @@
         "carreer": "Software Developer",
         "hire_me": "Hire me", 
         "cv": "Download CV",
-        "about_me_text": "Hi, I'm Ana Beatriz, a passionate software developer with a strong command of JavaScript, TypeScript, Node.js, NestJS, React, HTML, CSS and Flutter for mobile applications. I have an innate ability to learn quickly and I love facing challenges that push me to surpass my limits on a daily basis. With experience in team leadership, I found constant motivation in the inspiration of others. Always looking to improve, I am determined to stand out and leave a positive mark in everything I do."
+        "about_me_text": "Hi, I'm Ana Beatriz, a passionate software developer with a strong command of JavaScript, TypeScript, Node.js, NestJS, React, HTML, CSS and Flutter for mobile applications. I have an innate ability to learn quickly and I love facing challenges that push me to surpass my limits on a daily basis. With experience in team leadership, I found constant motivation in the inspiration of others. Always looking to improve, I am determined to stand out and leave a positive mark in everything I do.",
+        "my_projects": "My Projects",
+
+        "project1_title": "Pass.in API",
+        "project1_description": "Pass.in is a Node.js API that manages registrations and check-ins for in-person events, offering event registration, data visualization, and QRCode integration for check-in.",
+        "project2_title": "Pass.in Web",
+        "project2_description": "Built in React with Vite and Tailwind CSS connected to the Pass.in API, allowing to create, edit, and delete events, as well as list and search registered participants, with an intuitive and responsive interface.",
+        "project3_title": "BiaLinks",
+        "project3_description": "BiaLinks is a link aggregator to use as an online business card, made with HTML, CSS, and JavaScript."
     }
 }

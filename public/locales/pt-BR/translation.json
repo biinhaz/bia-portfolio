@@ -8,6 +8,14 @@
         "carreer": "Desenvolvedora de Software",
         "hire_me": "Me contrate", 
         "cv": "Baixar CV",
-        "about_me_text": "Olá, sou Ana Beatriz, uma desenvolvedora de software apaixonada com forte domínio de JavaScript, TypeScript, Node.js, NestJS, React, HTML, CSS e Flutter para aplicações móveis. Tenho uma capacidade inata de aprender rápido e adoro enfrentar desafios que me levem a superar meus limites diariamente. Com experiência em liderança de equipes, encontrei motivação constante em inspirar outras pessoas. Sempre em busca de melhorar, estou determinada a me destacar e deixar uma marca positiva em tudo que faço"
+        "about_me_text": "Olá, sou Ana Beatriz, uma desenvolvedora de software apaixonada com forte domínio de JavaScript, TypeScript, Node.js, NestJS, React, HTML, CSS e Flutter para aplicações móveis. Tenho uma capacidade inata de aprender rápido e adoro enfrentar desafios que me levem a superar meus limites diariamente. Com experiência em liderança de equipes, encontrei motivação constante em inspirar outras pessoas. Sempre em busca de melhorar, estou determinada a me destacar e deixar uma marca positiva em tudo que faço",
+        "my_projects": "Meus Projetos",
+
+        "project1_title": "Pass.in API",
+        "project1_description": "O Pass.in é uma API Node.js que gerencia inscrições e check-ins de eventos presenciais, oferecendo cadastro de eventos, visualização de dados e integração com QRCode para check-in.",
+        "project2_title": "Pass.in Web",
+        "project2_description": "Feito em React com Vite e Tailwind CSS conectado à API do Pass.in permite criar, editar e excluir eventos, além de listar e pesquisar participantes inscritos, com uma interface intuitiva e responsiva.",
+        "project3_title": "BiaLinks",
+        "project3_description": "O BiaLinks é um agregador de links para usar como cartão de visitas online, feito em HTML, CSS e JavaScript."
         }
     }

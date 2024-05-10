@@ -29,7 +29,9 @@ export function HeroSection() {
                 />
             </h1>
             <div>
+                <a href="https://is.gd/mzZQPw">
                 <AppButton>{t('app.hire_me')}</AppButton>
+                </a>
                 <a
                 href="/"
                 className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-purple-700 to-pink-500 hover:bg-slate-800 mt-3 lg:text-lg"
