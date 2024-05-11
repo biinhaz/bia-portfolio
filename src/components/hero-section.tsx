@@ -29,7 +29,7 @@ export function HeroSection() {
                 />
             </h1>
             <div>
-                <a href="https://is.gd/mzZQPw">
+                <a href="/#contact">
                 <AppButton>{t('app.hire_me')}</AppButton>
                 </a>
                 <a

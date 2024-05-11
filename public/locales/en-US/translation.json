@@ -4,6 +4,7 @@
         "projects": "Projects",
         "contact": "Contact",
         "about_me": "About me",
+        "certifications": "Certificates",
         "presentation": "Hi, I'm",
         "carreer": "Software Developer",
         "hire_me": "Hire me", 
@@ -16,6 +17,15 @@
         "project2_title": "Pass.in Web",
         "project2_description": "Built in React with Vite and Tailwind CSS connected to the Pass.in API, allowing to create, edit, and delete events, as well as list and search registered participants, with an intuitive and responsive interface.",
         "project3_title": "BiaLinks",
-        "project3_description": "BiaLinks is a link aggregator to use as an online business card, made with HTML, CSS, and JavaScript."
+        "project3_description": "BiaLinks is a link aggregator to use as an online business card, made with HTML, CSS, and JavaScript.",
+
+        "your_email": "Your email",
+        "subject": "Subject",
+        "message": "Message",
+        "send_message": "Send message",
+        "lets_connect": "Let's connect!",
+        "email_text": "I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+        "subject_holder": "Proposal for...",
+        "message_holder": "Hi Bia! I want to talk about..."
     }
 }

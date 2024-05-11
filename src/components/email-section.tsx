@@ -1,7 +1,11 @@
 import React, { useState } from "react";
+import GitHubIcon from "../assets/github-icon.svg";
+import LinkedinIcon from "../assets/linkedin-icon.svg";
+import { useTranslation } from 'react-i18next';
 
 export function EmailSection() {
     const [emailSubmitted, setEmailSubmitted] = useState(false);
+    const { t } = useTranslation();
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -37,18 +41,20 @@ export function EmailSection() {
         <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
         <div className="z-10">
             <h5 className="text-xl font-bold text-white my-2">
-            Let&apos;s Connect
+                {t('app.lets_connect')}
             </h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md">
-            {" "}
-            I&apos;m currently looking for new opportunities, my inbox is always
-            open. Whether you have a question or just want to say hi, I&apos;ll
-            try my best to get back to you!
+            {t('app.email_text')}
             </p>
             <div className="socials flex flex-row gap-2">
-            <a href="github.com">
+            <a href="https://github.com/biinhaz">
+                <img src={GitHubIcon} alt="Git Hub Icon"/>
             </a>
-            <a href="linkedin.com">
+            <a href="https://www.linkedin.com/in/ana-beatriz-miranda-oliveira/">
+            <img src={LinkedinIcon} alt="Linkedin Icon"/>
+            </a>
+            <a href="https://www.linkedin.com/in/ana-beatriz-miranda-oliveira/">
+            <img src={LinkedinIcon} alt="Linkedin Icon"/>
             </a>
             </div>
         </div>
@@ -64,7 +70,7 @@ export function EmailSection() {
                     htmlFor="email"
                     className="text-white block mb-2 text-sm font-medium"
                 >
-                    Your email
+                    {t('app.your_email')}
                 </label>
                 <input
                     name="email"
@@ -72,7 +78,7 @@ export function EmailSection() {
                     id="email"
                     required
                     className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                    placeholder="jacob@google.com"
+                    placeholder="joaomaria@gmail.com"
                 />
                 </div>
                 <div className="mb-6">
@@ -80,7 +86,7 @@ export function EmailSection() {
                     htmlFor="subject"
                     className="text-white block text-sm mb-2 font-medium"
                 >
-                    Subject
+                    {t('app.subject')}
                 </label>
                 <input
                     name="subject"
@@ -88,7 +94,7 @@ export function EmailSection() {
                     id="subject"
                     required
                     className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                    placeholder="Just saying hi"
+                    placeholder={t('app.subject_holder')}
                 />
                 </div>
                 <div className="mb-6">
@@ -96,20 +102,20 @@ export function EmailSection() {
                     htmlFor="message"
                     className="text-white block text-sm mb-2 font-medium"
                 >
-                    Message
+                    {t('app.message')}
                 </label>
                 <textarea
                     name="message"
                     id="message"
                     className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                    placeholder="Let's talk about..."
+                    placeholder={t('app.message_holder')}
                 />
                 </div>
                 <button
                 type="submit"
                 className="bg-gradient-to-br from-purple-700 to-pink-500 text-white font-medium py-2.5 px-5 rounded-lg w-full"
                 >
-                Send Message
+                {t('app.send_message')}
                 </button>
             </form>
             )}

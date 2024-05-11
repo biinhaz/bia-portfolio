@@ -1,9 +1,11 @@
 {
     "app": {
+
         "select_language": "Selecione uma linguagem",
         "projects": "Projetos",
         "contact": "Contato",
         "about_me": "Sobre mim",
+        "certifications": "Certificados",
         "presentation": "Olá, eu sou",
         "carreer": "Desenvolvedora de Software",
         "hire_me": "Me contrate", 
@@ -16,6 +18,23 @@
         "project2_title": "Pass.in Web",
         "project2_description": "Feito em React com Vite e Tailwind CSS conectado à API do Pass.in permite criar, editar e excluir eventos, além de listar e pesquisar participantes inscritos, com uma interface intuitiva e responsiva.",
         "project3_title": "BiaLinks",
-        "project3_description": "O BiaLinks é um agregador de links para usar como cartão de visitas online, feito em HTML, CSS e JavaScript."
+        "project3_description": "O BiaLinks é um agregador de links para usar como cartão de visitas online, feito em HTML, CSS e JavaScript.",
+
+        "your_email": "Seu email",
+        "subject": "Assunto",
+        "message": "Mensagem",
+        "send_message": "Enviar mensagem",
+        "lets_connect": "Entre em contato comigo!",
+        "email_text": "Estou atualmente em busca de novas oportunidades, minha caixa de entrada está sempre aberta. Se você tiver uma pergunta ou simplesmente quiser dizer oi, farei o possível para responder!",
+        "message_holder": "Proposta de...",
+        "subject_holder": "Oi Bia! Quero falar sobre...",
+
+        "my_certifications": "Certificados",
+        "certification1_title": "Node. Js",
+        "certification1_description": "O Pass.in é uma API Node.js que gerencia inscrições e check-ins de eventos presenciais, oferecendo cadastro de eventos, visualização de dados e integração com QRCode para check-in.",
+        "certification2_title": "React.Js",
+        "certification2_description": "Feito em React com Vite e Tailwind CSS conectado à API do Pass.in permite criar, editar e excluir eventos, além de listar e pesquisar participantes inscritos, com uma interface intuitiva e responsiva.",
+        "certification3_title": "BiaLinks",
+        "certification3_description": ""
         }
     }
