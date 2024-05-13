@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import GitHubIcon from "../assets/github-icon.svg";
 import LinkedinIcon from "../assets/linkedin-icon.svg";
 import { useTranslation } from 'react-i18next';
+import { AppButton } from "../components/app-button";
 
 export function EmailSection() {
     const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -111,12 +112,7 @@ export function EmailSection() {
                     placeholder={t('app.message_holder')}
                 />
                 </div>
-                <button
-                type="submit"
-                className="bg-gradient-to-br from-purple-700 to-pink-500 text-white font-medium py-2.5 px-5 rounded-lg w-full"
-                >
-                {t('app.send_message')}
-                </button>
+                <AppButton type="submit" className="w-full">{t('app.send_message')}</AppButton>
             </form>
             )}
         </div>

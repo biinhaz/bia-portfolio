@@ -1,7 +1,7 @@
 "use client";
 import { useState, useRef } from "react";
-import { ProjectCard } from "./project-card";
-import { ProjectTag } from "./project-tag";
+import { ProjectCard } from "../components/project-card";
+import { ProjectTag } from "../components/project-tag";
 import { motion, useInView } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 import PassInWeb from '../assets/pass_in_web.png';

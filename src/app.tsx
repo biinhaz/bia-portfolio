@@ -1,12 +1,12 @@
-import { HeroSection } from "./components/hero-section";
-import { Header } from "./components/header";
-import { AboutMe } from "./components/about-me";
-import { Footer } from "./components/footer";
+import { HeroSection } from "./sections/hero-section";
+import { Header } from "./sections/header";
+import { AboutMe } from "./sections/about-me";
+import { Footer } from "./sections/footer";
 import './i18n';
-import { Frameworks } from "./components/frameworks";
-import { Projects } from "./components/projects";
-import { EmailSection } from "./components/email-section";
-import { Certifications } from "./components/certifications";
+import { Frameworks } from "./sections/frameworks";
+import { Projects } from "./sections/projects";
+import { EmailSection } from "./sections/email-section";
+import { Certifications } from "./sections/certifications";
 
 export function App() {
   return (

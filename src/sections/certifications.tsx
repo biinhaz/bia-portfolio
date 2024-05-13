@@ -1,4 +1,4 @@
-import { CertificationCard } from "./certification-card";
+import { CertificationCard } from "../components/certification-card";
 import { useTranslation } from "react-i18next";
 import NodeJsCertificate from "../assets/certificado-nodejs.pdf";
 import ReactJsCertificate from "../assets/certificado-reactJs.pdf";

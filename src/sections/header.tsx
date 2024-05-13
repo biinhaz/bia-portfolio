@@ -1,10 +1,10 @@
-import { AppButton } from "./app-button";
-import { NavLink } from "./nav-link";
+import { AppButton } from "../components/app-button";
+import { NavLink } from "../components/nav-link";
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import { MenuOverlay } from "./menu-overlay";
+import { MenuOverlay } from "../components/menu-overlay";
 import { useTranslation } from 'react-i18next';
-import LanguageSelector from "./lang-button";
+import LanguageSelector from "../components/lang-button";
 
 export function Header() {
     const [navbarOpen, setNavbarOpen] = useState(false);
