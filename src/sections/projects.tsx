@@ -7,6 +7,10 @@ import { useTranslation } from 'react-i18next';
 import PassInWeb from '../assets/pass_in_web.png';
 import PassInDoc from '../assets/pass_in_doc.png';
 import LinkTreeBia from '../assets/bia_links.png';
+import MeuPortfolio from "../assets/meu-portfolio.png";
+import SofiaResolve from "../assets/sofiaresolve.png";
+import SofiaResolveDashboard from "../assets/sofia-dashboard.png";
+import ArenaXpApp from "../assets/arena-xp.jpeg";
 
 export function Projects() {
     const { t } = useTranslation();
@@ -16,7 +20,7 @@ export function Projects() {
             title: t('app.project1_title'),
             description: t('app.project1_description'),
             image: PassInDoc,
-            tag: ["All", "Web"],
+            tag: [t('app.tag_projects')],
             gitUrl: "https://github.com/biinhaz/server-node",
             previewUrl: "/",
         },
@@ -25,7 +29,7 @@ export function Projects() {
             title: t('app.project2_title'),
             description: t('app.project2_description'),
             image: PassInWeb,
-            tag: ["All", "Web"],
+            tag: [t('app.tag_projects')],
             gitUrl: "https://github.com/biinhaz/pass-in-web",
             previewUrl: "/",
         },
@@ -34,12 +38,45 @@ export function Projects() {
             title: t('app.project3_title'),
             description: t('app.project3_description'),
             image: LinkTreeBia,
-            tag: ["All", "Web"],
+            tag: [t('app.tag_projects')],
             gitUrl: "https://github.com/biinhaz/linkTreeBia",
             previewUrl: "/",
         },
+        {
+            id: 4,
+            title: t('app.project4_title'),
+            description: t('app.project4_description'),
+            image: MeuPortfolio,
+            tag: [t('app.tag_projects')],
+            gitUrl: "https://github.com/biinhaz/bia-portfolio",
+            previewUrl: "/",
+        },
+        {
+            id: 5,
+            title: t('app.project5_title'),
+            description: t('app.project5_description'),
+            image: SofiaResolve,
+            tag: [t('app.tag_contributions')],
+            gitUrl: "",
+            previewUrl: "https://app.sofiaresolve.com.br",
+        },
+        {
+            id: 6,
+            title: t('app.project6_title'),
+            description: t('app.project6_description'),
+            image: SofiaResolveDashboard,
+            tag: [t('app.tag_contributions')],
+        },
+        {
+            id: 7,
+            title: t('app.project7_title'),
+            description: t('app.project7_description'),
+            image: ArenaXpApp,
+            tag: [t('app.tag_contributions')],
+            previewUrl: "https://play.google.com/store/apps/details?id=br.com.pipetech.arenaconference&hl=pt_BR&gl=US",
+        },
         ]
-    const [tag, setTag] = useState("All");
+    const [tag, setTag] = useState(t('app.tag_projects'));
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
 
@@ -58,24 +95,19 @@ export function Projects() {
 
     return (
         <section id="projects">
-        <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+        <h2 className="text-center text-4xl font-bold text-white mt-28 mb-8 md:mb-12">
             {t('app.my_projects')}
         </h2>
         <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
             <ProjectTag
             onClick={handleTagChange}
-            name="All"
-            isSelected={tag === "All"}
+            name={t('app.tag_projects')}
+            isSelected={tag === "Meus projetos"}
             />
             <ProjectTag
             onClick={handleTagChange}
-            name="Web"
-            isSelected={tag === "Web"}
-            />
-            <ProjectTag
-            onClick={handleTagChange}
-            name="Mobile"
-            isSelected={tag === "Mobile"}
+            name={t('app.tag_contributions')}
+            isSelected={tag === "Minhas contribuições"}
             />
         </div>
         <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

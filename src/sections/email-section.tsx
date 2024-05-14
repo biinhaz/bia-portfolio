@@ -54,9 +54,6 @@ export function EmailSection() {
             <a href="https://www.linkedin.com/in/ana-beatriz-miranda-oliveira/">
             <img src={LinkedinIcon} alt="Linkedin Icon"/>
             </a>
-            <a href="https://www.linkedin.com/in/ana-beatriz-miranda-oliveira/">
-            <img src={LinkedinIcon} alt="Linkedin Icon"/>
-            </a>
             </div>
         </div>
         <div>

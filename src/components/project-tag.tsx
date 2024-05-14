@@ -6,8 +6,8 @@ interface ProjectTagProps {
 
 export function ProjectTag({ name, onClick, isSelected, ...buttonProps }: ProjectTagProps) {
     const buttonStyles = isSelected
-        ? "text-white border-primary-500"
-        : "text-[#ADB7BE] border-slate-600 hover:border-white";
+        ? "text-white"
+        : "text-[#ADB7BE] border-slate-600 hover:border-pink-500";
 
     return (
         <button

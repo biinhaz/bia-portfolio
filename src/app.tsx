@@ -17,7 +17,7 @@ export function App() {
       <AboutMe/>
       <Frameworks/>
       <Projects/>
-      <Certifications/>
+      {/* <Certifications/> */}
       <EmailSection/>
     </div>
     <Footer/>

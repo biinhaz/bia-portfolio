@@ -2,7 +2,7 @@
     "app": {
 
         "select_language": "Selecione uma linguagem",
-        "projects": "Projetos",
+        "projects": "Codando",
         "contact": "Contato",
         "about_me": "Sobre mim",
         "certifications": "Certificados",
@@ -11,14 +11,24 @@
         "hire_me": "Me contrate", 
         "cv": "Baixar CV",
         "about_me_text": "Olá, sou Ana Beatriz, uma desenvolvedora de software apaixonada com forte domínio de JavaScript, TypeScript, Node.js, NestJS, React, HTML, CSS e Flutter para aplicações móveis. Tenho uma capacidade inata de aprender rápido e adoro enfrentar desafios que me levem a superar meus limites diariamente. Com experiência em liderança de equipes, encontrei motivação constante em inspirar outras pessoas. Sempre em busca de melhorar, estou determinada a me destacar e deixar uma marca positiva em tudo que faço",
-        "my_projects": "Meus Projetos",
+        "my_projects": "<codando>",
 
+        "tag_projects": "Projetos",
+        "tag_contributions": "Contribuições",
         "project1_title": "Pass.in API",
         "project1_description": "O Pass.in é uma API Node.js que gerencia inscrições e check-ins de eventos presenciais, oferecendo cadastro de eventos, visualização de dados e integração com QRCode para check-in.",
         "project2_title": "Pass.in Web",
         "project2_description": "Feito em React com Vite e Tailwind CSS conectado à API do Pass.in permite criar, editar e excluir eventos, além de listar e pesquisar participantes inscritos, com uma interface intuitiva e responsiva.",
         "project3_title": "BiaLinks",
         "project3_description": "O BiaLinks é um agregador de links para usar como cartão de visitas online, feito em HTML, CSS e JavaScript.",
+        "project4_title": "Meu portfólio",
+        "project4_description": "Criação do meu portfólio responsivo com React.Js + Vite + TailwindCSS.",
+        "project5_title": "Sof.ia Resolve – Plataforma de inteligência artificial",
+        "project5_description": "Colaboração no desenvolvimento de uma IA voltada para empresas, utilizando Nest.js, Vue.js, PostgreSQL e Prisma.",
+        "project6_title": "Sof.ia Resolve – Criação de Dashboard  e integração com API",
+        "project6_description": "Criação de Dashboard com gráficos e integração a API para análise de dados, utilizando Nest.Js e React.Js.",
+        "project7_title": "Arena Xperience - Aplicativo de compra de ingressos",
+        "project7_description": "Colaboração no desenvolvimento de um aplicativo com mais de 10 mil usuários, utilizando Flutter e PostgreSQL.",
 
         "your_email": "Seu email",
         "subject": "Assunto",
@@ -29,7 +39,7 @@
         "message_holder": "Proposta de...",
         "subject_holder": "Oi Bia! Quero falar sobre...",
 
-        "my_certifications": "Certificados",
+        "my_certifications": "<certificados>",
         "certification1_title": "Node. Js",
         "certification1_description": "O Pass.in é uma API Node.js que gerencia inscrições e check-ins de eventos presenciais, oferecendo cadastro de eventos, visualização de dados e integração com QRCode para check-in.",
         "certification2_title": "React.Js",

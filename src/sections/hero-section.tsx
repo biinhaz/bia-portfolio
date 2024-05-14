@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import fotoBia from "../assets/bia-photo.jpg";
 import { TypeAnimation } from "react-type-animation";
 import { AppButton } from "../components/app-button";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
+import biaCV from "../assets/meu-currículo.pdf"
 
 export function HeroSection() {
     const { t } = useTranslation();
@@ -33,7 +34,7 @@ export function HeroSection() {
                 <AppButton>{t('app.hire_me')}</AppButton>
                 </a>
                 <a
-                href="/"
+                href={biaCV} 
                 className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-purple-700 to-pink-500 hover:bg-slate-800 mt-3 lg:text-lg cursor-pointer transition-all duration-100 ease-in transform hover:scale-105"
                 >
                 <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-6 py-2 cursor-pointer transition-all duration-100 ease-in transform hover:scale-100">

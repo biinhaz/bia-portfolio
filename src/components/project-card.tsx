@@ -4,8 +4,8 @@ interface ProjectCardProps {
     imgUrl: string,
     title: string,
     description: string,
-    gitUrl: string,
-    previewUrl: string
+    gitUrl?: string,
+    previewUrl?: string
 }
 export function ProjectCard({ imgUrl, title, description, gitUrl, previewUrl }: ProjectCardProps) {
     return (
