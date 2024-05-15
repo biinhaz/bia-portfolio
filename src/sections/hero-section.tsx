@@ -18,7 +18,7 @@ export function HeroSection() {
             className="col-span-8 flex flex-col justify-center text-center sm:text-left lg:justify-self-start"
             >
             <h1 className="mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-500">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-color to-secondary-color">
                 {t('app.presentation')}
                 </span>
                 <br></br>
@@ -35,7 +35,7 @@ export function HeroSection() {
                 </a>
                 <a
                 href={biaCV} 
-                className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-purple-700 to-pink-500 hover:bg-slate-800 mt-3 lg:text-lg cursor-pointer transition-all duration-100 ease-in transform hover:scale-105"
+                className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-color to-secondary-color hover:bg-slate-800 mt-3 lg:text-lg cursor-pointer transition-all duration-100 ease-in transform hover:scale-105"
                 >
                 <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-6 py-2 cursor-pointer transition-all duration-100 ease-in transform hover:scale-100">
                     {t('app.cv')}

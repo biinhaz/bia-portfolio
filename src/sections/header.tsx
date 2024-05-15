@@ -5,6 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { MenuOverlay } from "../components/menu-overlay";
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from "../components/lang-button";
+import BiaLogo from "../assets/logo-bia.png";
 
 export function Header() {
     const [navbarOpen, setNavbarOpen] = useState(false);
@@ -19,19 +20,14 @@ export function Header() {
             title: t('app.projects'),
             path: "#projects",
         },
-        {
-            title: t('app.certifications'),
-            path: "#certifications"
-        }
     ];
     
     return (
         <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
             <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
-                <a href={"/"} className="text-2xl md:text-4xl text-white font-semibold">
-                    LOGO
-                </a>
-                <div className="mobile-menu block md:hidden">
+                <img src={BiaLogo} alt="Bia Logo" width={70} height={70}/>
+                <div className="mobile-menu flex md:hidden items-center justify-center gap-3">
+                <LanguageSelector/>
                     {!navbarOpen ? (
                         <button
                             onClick={() => setNavbarOpen(true)}
@@ -49,7 +45,9 @@ export function Header() {
                     )}
                 </div>
                 <div className="menu hidden md:flex md:w-auto items-center gap-5" id="navbar">
-                <LanguageSelector />
+                <div className="mr-7 flex items-center">
+                    <LanguageSelector/>
+                </div>
                     <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
                         {navLinks.map((link, index) => (
                             <li key={index}>
