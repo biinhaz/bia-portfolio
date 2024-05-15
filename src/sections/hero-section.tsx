@@ -3,10 +3,14 @@ import fotoBia from "../assets/bia-photo.jpg";
 import { TypeAnimation } from "react-type-animation";
 import { AppButton } from "../components/app-button";
 import { useTranslation } from "react-i18next";
-import BiaCV from "../assets/meu-currículo.pdf";
+import BiaCVPt from "../assets/meu-curriculo.pdf";
+import BiaCVEn from "../assets/my-resume.pdf";
+import i18n from "../i18n";
 
 export function HeroSection() {
     const { t } = useTranslation();
+
+    const BiaCV = i18n.language === 'en-US' ? BiaCVEn : BiaCVPt
 
     return (
         <section className="lg:py-16">
@@ -34,7 +38,7 @@ export function HeroSection() {
                 <AppButton>{t('app.hire_me')}</AppButton>
                 </a>
                 <a
-                href={BiaCV} 
+                href={BiaCV} target="_blank"
                 className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-color to-secondary-color hover:bg-slate-800 mt-3 lg:text-lg cursor-pointer transition-all duration-100 ease-in transform hover:scale-105"
                 >
                 <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-6 py-2 cursor-pointer transition-all duration-100 ease-in transform hover:scale-100">
