@@ -6,7 +6,6 @@ import './i18n';
 import { Frameworks } from "./sections/frameworks";
 import { Projects } from "./sections/projects";
 import { EmailSection } from "./sections/email-section";
-import { Certifications } from "./sections/certifications";
 
 export function App() {
   return (
@@ -17,7 +16,6 @@ export function App() {
       <AboutMe/>
       <Frameworks/>
       <Projects/>
-      {/* <Certifications/> */}
       <EmailSection/>
     </div>
     <Footer/>
