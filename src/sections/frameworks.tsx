@@ -24,7 +24,7 @@ export function Frameworks() {
                 <div className="relative inline-block sm:w-auto h-auto" onMouseEnter={() => setShowJavaScriptTag(true)} onMouseLeave={() => setShowJavaScriptTag(false)}>
                     <img src={JavaScript} className="w-14 h-14" alt="JavaScript" />
                     {showJavaScriptTag && (
-                        <div className="absolute top-0 right-0 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
+                        <div className="absolute top-0 right-1/2 translate-x-1/2 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
                             JavaScript
                         </div>
                     )}
@@ -32,7 +32,7 @@ export function Frameworks() {
                 <div className="relative inline-block sm:w-auto h-auto" onMouseEnter={() => setShowTypeScriptTag(true)} onMouseLeave={() => setShowTypeScriptTag(false)}>
                     <img src={TypeScript} className="w-14 h-14" alt="TypeScript" />
                     {showTypeScriptTag && (
-                        <div className="absolute top-0 right-0 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
+                        <div className="absolute top-0 right-1/2 translate-x-1/2 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
                             TypeScript
                         </div>
                     )}
@@ -40,7 +40,7 @@ export function Frameworks() {
                 <div className="relative inline-block sm:w-auto h-auto" onMouseEnter={() => setShowNodeJsTag(true)} onMouseLeave={() => setShowNodeJsTag(false)}>
                     <img src={Phyton} className="w-12 h-12" alt="Node.js" />
                     {showNodeJsTag && (
-                        <div className="absolute top-0 right-0 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
+                        <div className="absolute top-0 right-1/2 translate-x-1/2 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
                             Phyton
                         </div>
                     )}
@@ -48,7 +48,7 @@ export function Frameworks() {
                 <div className="relative inline-block sm:w-auto h-auto" onMouseEnter={() => setShowReactTag(true)} onMouseLeave={() => setShowReactTag(false)}>
                     <img src={ReactIcon} className="w-12 h-12" alt="React" />
                     {showReactTag && (
-                        <div className="absolute top-0 right-0 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
+                        <div className="absolute top-0 right-1/2 translate-x-1/2 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
                             React
                         </div>
                     )}
@@ -56,7 +56,7 @@ export function Frameworks() {
                 <div className="relative inline-block sm:w-auto h-auto" onMouseEnter={() => setShowPhytonTag(true)} onMouseLeave={() => setShowPhytonTag(false)}>
                     <img src={NodeJs} className="w-12 h-12" alt="Phyton" />
                     {showPhytonTag && (
-                        <div className="absolute top-0 right-0 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
+                        <div className="absolute top-0 right-1/2 translate-x-1/2 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
                             NodeJs
                         </div>
                     )}
@@ -64,7 +64,7 @@ export function Frameworks() {
                 <div className="relative inline-block sm:w-auto h-auto" onMouseEnter={() => setShowNestJsTag(true)} onMouseLeave={() => setShowNestJsTag(false)}>
                     <img src={NestJs} className="w-12 h-12" alt="Nest.js" />
                     {showNestJsTag && (
-                        <div className="absolute top-0 right-0 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
+                        <div className="absolute top-0 right-1/2 translate-x-1/2 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
                             Nest.js
                         </div>
                     )}
@@ -72,7 +72,7 @@ export function Frameworks() {
                 <div className="relative inline-block sm:w-auto h-auto" onMouseEnter={() => setShowVueJsTag(true)} onMouseLeave={() => setShowVueJsTag(false)}>
                     <img src={VueJs} className="w-12 h-12" alt="Vue.js" />
                     {showVueJsTag && (
-                        <div className="absolute top-0 right-0 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
+                        <div className="absolute top-0 right-1/2 translate-x-1/2 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
                             Vue.js
                         </div>
                     )}
@@ -80,7 +80,7 @@ export function Frameworks() {
                 <div className="relative inline-block sm:w-auto h-auto" onMouseEnter={() => setShowFlutterTag(true)} onMouseLeave={() => setShowFlutterTag(false)}>
                     <img src={Flutter} className="w-12 h-12" alt="Flutter" />
                     {showFlutterTag && (
-                        <div className="absolute top-0 right-0 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
+                        <div className="absolute top-0 right-1/2 translate-x-1/2 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
                             Flutter
                         </div>
                     )}
