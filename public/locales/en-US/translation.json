@@ -29,6 +29,8 @@
         "project6_description": "Creation of Dashboard with graphs and API integration for data analysis, using Nest.Js and React.Js.",
         "project7_title": "Arena Xperience - Ticket purchasing app",
         "project7_description": "Collaboration in the development of an application with more than 10 thousand users, using Flutter and PostgreSQL.",
+        "project8_title": "Plann.er - Travel Planner",
+        "project8_description": "Plann.er is a travel planner, an API was built where it is possible to register and update new trips, activities and links and invite people. Made in NodeJs with Typescript, Fastify, Zod, among others.",
 
         "your_email": "Your email",
         "subject": "Subject",

@@ -5,13 +5,13 @@ import NodeJs from '../assets/nodeJs.png';
 import NestJs from '../assets/nestJs.svg';
 import ReactIcon from '../assets/react.png';
 import Flutter from '../assets/flutter.png';
-import Phyton from '../assets/phyton.png';
+// import Phyton from '../assets/phyton.png';
 import VueJs from '../assets/vueJs.png';
 
 export function Frameworks() {
     const [showJavaScriptTag, setShowJavaScriptTag] = useState(false);
     const [showTypeScriptTag, setShowTypeScriptTag] = useState(false);
-    const [showNodeJsTag, setShowNodeJsTag] = useState(false);
+    // const [showNodeJsTag, setShowNodeJsTag] = useState(false);
     const [showNestJsTag, setShowNestJsTag] = useState(false);
     const [showReactTag, setShowReactTag] = useState(false);
     const [showFlutterTag, setShowFlutterTag] = useState(false);
@@ -37,14 +37,14 @@ export function Frameworks() {
                         </div>
                     )}
                 </div>
-                <div className="relative inline-block sm:w-auto h-auto" onMouseEnter={() => setShowNodeJsTag(true)} onMouseLeave={() => setShowNodeJsTag(false)}>
+                {/* <div className="relative inline-block sm:w-auto h-auto" onMouseEnter={() => setShowNodeJsTag(true)} onMouseLeave={() => setShowNodeJsTag(false)}>
                     <img src={Phyton} className="w-12 h-12" alt="Node.js" />
                     {showNodeJsTag && (
                         <div className="absolute top-0 right-1/2 translate-x-1/2 bg-black bg-opacity-75 text-white px-2 py-1 rounded-lg">
                             Phyton
                         </div>
                     )}
-                </div>
+                </div> */}
                 <div className="relative inline-block sm:w-auto h-auto" onMouseEnter={() => setShowReactTag(true)} onMouseLeave={() => setShowReactTag(false)}>
                     <img src={ReactIcon} className="w-12 h-12" alt="React" />
                     {showReactTag && (

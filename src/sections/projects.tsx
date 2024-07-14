@@ -11,6 +11,7 @@ import MeuPortfolio from "../assets/meu-portfolio.png";
 import SofiaResolve from "../assets/sofiaresolve.png";
 import SofiaResolveDashboard from "../assets/sofia-dashboard.png";
 import ArenaXpApp from "../assets/arena-xp.jpeg";
+import PlannerAPI from "../assets/plannerAPI.png";
 
 export function Projects() {
     const { t } = useTranslation();
@@ -22,7 +23,6 @@ export function Projects() {
             image: PassInDoc,
             tag: [t('app.tag_projects')],
             gitUrl: "https://github.com/biinhaz/server-node",
-            previewUrl: "/",
         },
         {
             id: 2,
@@ -31,7 +31,6 @@ export function Projects() {
             image: PassInWeb,
             tag: [t('app.tag_projects')],
             gitUrl: "https://github.com/biinhaz/pass-in-web",
-            previewUrl: "/",
         },
         {
             id: 3,
@@ -40,7 +39,6 @@ export function Projects() {
             image: LinkTreeBia,
             tag: [t('app.tag_projects')],
             gitUrl: "https://github.com/biinhaz/linkTreeBia",
-            previewUrl: "/",
         },
         {
             id: 4,
@@ -49,7 +47,7 @@ export function Projects() {
             image: MeuPortfolio,
             tag: [t('app.tag_projects')],
             gitUrl: "https://github.com/biinhaz/bia-portfolio",
-            previewUrl: "/",
+            previewUrl: "https://biamiranda.online",
         },
         {
             id: 5,
@@ -57,7 +55,6 @@ export function Projects() {
             description: t('app.project5_description'),
             image: SofiaResolve,
             tag: [t('app.tag_contributions')],
-            gitUrl: "",
             previewUrl: "https://app.sofiaresolve.com.br",
         },
         {
@@ -74,6 +71,14 @@ export function Projects() {
             image: ArenaXpApp,
             tag: [t('app.tag_contributions')],
             previewUrl: "https://play.google.com/store/apps/details?id=br.com.pipetech.arenaconference&hl=pt_BR&gl=US",
+        },
+        {
+            id: 8,
+            title: t('app.project8_title'),
+            description: t('app.project8_description'),
+            image: PlannerAPI,
+            tag: [t('app.tag_projects')],
+            gitUrl: "https://github.com/biinhaz/plann.er-backend",
         },
         ]
     const [tag, setTag] = useState(t('app.tag_projects'));
