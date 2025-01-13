@@ -10,7 +10,7 @@
         "carreer": "Desenvolvedora de Software",
         "hire_me": "Me contrate", 
         "cv": "Baixar CV",
-        "about_me_text": "Olá, sou Ana Beatriz, uma desenvolvedora de software apaixonada com forte domínio de JavaScript, TypeScript, Node.js, NestJS, React, HTML, CSS e Flutter para aplicações móveis. Tenho uma capacidade inata de aprender rápido e adoro enfrentar desafios que me levem a superar meus limites diariamente. Com experiência em liderança de equipes, encontrei motivação constante em inspirar outras pessoas. Sempre em busca de melhorar, estou determinada a me destacar e deixar uma marca positiva em tudo que faço",
+        "about_me_text": "Olá, sou Ana Beatriz, uma desenvolvedora de software apaixonada com forte domínio de JavaScript, TypeScript, Node.js, NestJS, React, HTML, CSS e React Native para aplicações móveis. Tenho uma capacidade inata de aprender rápido e adoro enfrentar desafios que me levem a superar meus limites diariamente. Com experiência em liderança de equipes, encontrei motivação constante em inspirar outras pessoas. Sempre em busca de melhorar, estou determinada a me destacar e deixar uma marca positiva em tudo que faço",
         "my_projects": "<codando>",
         "footer": "© 2024 Ana Beatriz Miranda Oliveira, Todos os direitos reservados.",
 
@@ -32,6 +32,8 @@
         "project7_description": "Colaboração no desenvolvimento de um aplicativo com mais de 10 mil usuários, utilizando Flutter e PostgreSQL.",
         "project8_title": "Plann.er - Planejador de Viagens",
         "project8_description": "O Plann.er é um planejador de viagens, foi construida uma API onde é possivel cadastrar e atualizar novas viagens, atividades, links e convidar pessoas. Feito em NodeJs com Typescript, Fastify, Zod, entre outros.",
+        "project9_title": "MySchool - Aplicativo Escolar",
+        "project9_description": "MySchool é um aplicativo de gestão escolar com o objetivo de facilitar a comunicação entre a escola e os pais, feita com NodeJs e React Native.",
 
         "your_email": "Seu email",
         "subject": "Assunto",

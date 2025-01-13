@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import GitHubIcon from "../assets/github-icon.svg";
 import LinkedinIcon from "../assets/linkedin-icon.svg";
+import WppIcon from "../assets/wpp-icon.png";
 import { useTranslation } from 'react-i18next';
 import { AppButton } from "../components/app-button";
 
@@ -48,11 +49,16 @@ export function EmailSection() {
             {t('app.email_text')}
             </p>
             <div className="socials flex flex-row gap-2">
-            <a href="https://github.com/biinhaz">
+            <a href="https://github.com/biinhaz" target="blank">
                 <img src={GitHubIcon} alt="Git Hub Icon"/>
             </a>
-            <a href="https://www.linkedin.com/in/ana-beatriz-miranda-oliveira/">
+            <a href="https://www.linkedin.com/in/ana-beatriz-miranda-oliveira/" target="blank">
             <img src={LinkedinIcon} alt="Linkedin Icon"/>
+            </a>
+            <a href="https://wa.me/5561998689722" target="blank">
+                <div className="w-10 h-10 ml-2 mt-1">
+                    <img src={WppIcon} alt="Whatsapp Icon"/>
+                </div>
             </a>
             </div>
         </div>

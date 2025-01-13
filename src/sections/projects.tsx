@@ -12,6 +12,7 @@ import SofiaResolve from "../assets/sofiaresolve.png";
 import SofiaResolveDashboard from "../assets/sofia-dashboard.png";
 import ArenaXpApp from "../assets/arena-xp.jpeg";
 import PlannerAPI from "../assets/plannerAPI.png";
+import MySchoolApp from "../assets/myschool-app.png"
 
 export function Projects() {
     const { t } = useTranslation();
@@ -79,6 +80,13 @@ export function Projects() {
             image: PlannerAPI,
             tag: [t('app.tag_projects')],
             gitUrl: "https://github.com/biinhaz/plann.er-backend",
+        },
+        {
+            id: 9,
+            title: t('app.project9_title'),
+            description: t('app.project9_description'),
+            image: MySchoolApp,
+            tag: [t('app.tag_contributions')],
         },
         ]
     const [tag, setTag] = useState(t('app.tag_projects'));
